@@ -34,7 +34,8 @@ public class HelloWorld {
         System.out.println("░▒▓▒░▒▓▒░▒▓▒░▒▓▒░▒▓");
         System.out.println("How Many Rounds Would You Like To Play?");
         rounds = choice.nextInt();
-        for (int i = 0; i <= rounds; i = i+1)
+        rounds = rounds - 1;
+        for (int i = 0; i <= rounds;i++)
         {
             System.out.println("P1 Card ▬► " + a + " P2 Card ▬► " + b);
         }
